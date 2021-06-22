@@ -1,8 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
 
-const env = require('./env')
-
 console.log(process.env.NODE_ENV)
 
 module.exports = {
@@ -86,11 +84,6 @@ module.exports = {
     },
     extensions: ['*', '.js', '.vue', '.json']
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env': env
-    })
-  ],
   devServer: {
     historyApiFallback: true,
     noInfo: true,
