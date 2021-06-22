@@ -1,7 +1,7 @@
 {
   "name": "request-cs",
   "description": "服务云-Axios封装库",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "贾晓朋 <jiaxp3@lenovo.com>",
   "license": "MIT",
   "private": false,
