@@ -1,7 +1,7 @@
 {
   "name": "request-cs",
   "description": "服务云-Axios封装库",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "贾晓朋 <jiaxp3@lenovo.com>",
   "license": "MIT",
   "private": false,
@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "element-ui": "^2.13.2",
-    "utils-cs": "^1.0.16",
+    "utils-cs": "^1.0.17",
     "vue": "^2.5.11"
   },
   "browserslist": [
