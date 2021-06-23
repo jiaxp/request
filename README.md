@@ -16,8 +16,9 @@ npm install request-cs --save
   Vue.use(request,{
     namespace: process.env.VUE_APP_NAME, // 命名空间名称
     tokenKey: 'tokenKey', // token的key值，非必填【默认值：AuthAPIToken】
-    error: Function, // 接口报错回调方法，默认调用Vue.prototype.$logout
-    expire: Function, // token过期回调方法，默认Message提示信息
+    error: Function, // 接口Error
+    except: Function, // 接口报错回调方法，默认Message提示信息
+    expire: Function, // token过期回调方法，默认调用Vue.prototype.$logout
     proxy: {
       proxy: [
         '/templateapi', // 表单流程配置
