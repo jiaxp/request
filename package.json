@@ -19,7 +19,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "element-ui": "^2.13.2",
-    "utils-cs": "^1.0.18",
+    "utils-cs": "^1.0.19",
     "vue": "^2.5.11"
   },
   "browserslist": [
